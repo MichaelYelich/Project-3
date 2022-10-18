@@ -8,6 +8,7 @@ h1{
 }
 h2{
   font-size: 150%;
+  padding: 10px;
 }
 img{
   height: 15%;
@@ -15,5 +16,5 @@ img{
 }
 p{
   font-size: 100%;
-  font: 
+  padding: 10px;
 }
