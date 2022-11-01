@@ -23,6 +23,7 @@ h1{
   display: block;
   padding: 10px 20px;
   color: #fff;
+  text-decoration: none;
  }
 #main-navbar ul li a:hover {
   background-color: #000;
@@ -30,4 +31,70 @@ h1{
 }
 a{
  color: #6ebee7;
+}
+/*Index specifc css*/
+#index body{
+  background-color: black;
+  color: white;
+}
+#index h2{
+  font-size: 150%;
+}
+#index img{
+  height: 15%;
+  width: 15%;
+}
+
+#index h3{
+  padding: 10px;	
+}
+
+#index p{
+  font-size: 100%;
+  padding: 10px;
+}
+/*Resume specifc css*/
+#resume body{
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  min-width: 1500px;
+}
+#resume h3{
+  text-decoration: underline;
+  font-size: 130%;
+}
+#resume p{
+  font-size: 15px;
+  max-width: 600px;
+  margin: auto;
+  line-height: 20px;
+}
+#resume li{
+  font-size: 15px;
+  list-style:none;
+}
+#resume #main-navbar ul li a {
+  font-size: 16px;
+  font-family: sans-serif;
+ }
+/*Media Recomendation specifc css*/
+#media body{
+  background-color: #2292cc;
+  color: white;
+}
+#media h1{
+  font-size: 200%;
+  text-align: center;
+}
+#media h2{
+  font-size: 150%;
+  padding: 10px;
+}
+#media img{
+  height: 15%;
+  width: 15%;
+}
+#media p{
+  font-size: 100%;
+  padding: 10px;
 }
