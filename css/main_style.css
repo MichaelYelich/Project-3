@@ -4,11 +4,13 @@ h1{
 #main-navbar {
   background-color: blue;
   overflow: hidden;
+  margin-left:-50px;
+  margin-right:-50px;
 }
 #navbar-container{
   width: 100%;
   position: relative;
-  text-align: center
+  text-align: center;
 }
 #main-navbar ul {
   list-style-type: none;
@@ -31,6 +33,10 @@ h1{
 }
 a{
  color: #6ebee7;
+}
+body{
+  margin-left: 50px;
+  margin-right: 50px;
 }
 /*Index specifc css*/
 #index body{
@@ -57,7 +63,7 @@ a{
 #resume body{
   text-align: center;
   font-family: "Times New Roman", Times, serif;
-  min-width: 1500px;
+  min-width: 1400px;
 }
 #resume h3{
   text-decoration: underline;
@@ -88,7 +94,6 @@ a{
 }
 #media h2{
   font-size: 150%;
-  padding: 10px;
 }
 #media img{
   height: 15%;
@@ -96,5 +101,4 @@ a{
 }
 #media p{
   font-size: 100%;
-  padding: 10px;
 }
