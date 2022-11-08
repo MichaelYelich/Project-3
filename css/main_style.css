@@ -8,6 +8,7 @@ h1{
   margin-right:-50px;
 }
 #navbar-container{
+  float: left;
   width: 100%;
   position: relative;
   text-align: center;
@@ -40,6 +41,7 @@ body{
 }
 /*Index specifc css*/
 #index body{
+  position: relative;
   background-color: black;
   color: white;
 }
@@ -49,6 +51,7 @@ body{
 #index img{
   height: 15%;
   width: 15%;
+  position: relative;
 }
 
 #index h3{
@@ -85,6 +88,7 @@ body{
  }
 /*Media Recomendation specifc css*/
 #media body{
+  position: relative;
   background-color: #2292cc;
   color: white;
 }
@@ -96,9 +100,18 @@ body{
   font-size: 150%;
 }
 #media img{
+  float:left;
   height: 15%;
   width: 15%;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  
 }
 #media p{
   font-size: 100%;
+}
+iframe{
+  float:left;
+  padding-right: 20px;
+  border: none;  
 }
