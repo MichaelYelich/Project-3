@@ -24,6 +24,12 @@ function init() {
 	z=15
 	mapchange(x,y,z)
   }
+  function Obutton() {
+    x = 0	  
+    y = 0
+	z = 15
+	mapchange(x,y,z)
+  }
   function mapchange(x,y,z){
     map = new google.maps.Map(document.getElementById('map'), {
     center: {lat: x, lng:y},
@@ -33,5 +39,6 @@ function init() {
   iit.addEventListener('click',iitbutton);
   trick.addEventListener('click',trickbutton);
   random.addEventListener('click',randombutton);
+  O.addEventListener('click',Obutton);
 };
 window.addEventListener('load', init);
