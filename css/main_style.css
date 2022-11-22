@@ -115,8 +115,16 @@ iframe{
   padding-right: 20px;
   border: none;  
 }
+#map_page{
+  background-color: grey;
+}
 #map {
   height: 500px;
-  width: 100%;
-  margin: auto;
+  width: 80%;
+  margin: 50px auto;
+}
+btn-group button {
+  color: white;
+  padding: 10px 24px;
+  float: left;
 }
