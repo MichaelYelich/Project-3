@@ -9,13 +9,6 @@ function initMap() {
 	});
 };
 function init() {
-  $(document).ready(function(){$('.bxslider').bxSlider();});
-  $('.bxslider').bxSlider({
-   mode: 'fade',
-   pagerCustom: '#bx-pager',
-   autoHover: true,
-   auto: true
-});
   function iitbutton() {
     x = 41.831000
 	y = -87.627230
@@ -31,7 +24,7 @@ function init() {
 	z=15
 	mapchange(x,y,z)
   }
-  function Obutton() {
+  function zerobutton() {
     x = 0	  
     y = 0
 	z = 15
@@ -46,6 +39,13 @@ function init() {
   iit.addEventListener('click',iitbutton);
   trick.addEventListener('click',trickbutton);
   random.addEventListener('click',randombutton);
-  O.addEventListener('click',Obutton);
+  zero.addEventListener('click',zerobutton);
 };
 window.addEventListener('load', init);
+$(document).ready(function(){$('.bxslider').bxSlider();});
+  $('.bxslider').bxSlider({
+   mode: 'fade',
+   pagerCustom: '#bx-pager',
+   autoHover: true,
+   auto: true
+});
