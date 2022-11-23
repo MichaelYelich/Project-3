@@ -9,6 +9,13 @@ function initMap() {
 	});
 };
 function init() {
+  $(document).ready(function(){$('.bxslider').bxSlider();});
+  $('.bxslider').bxSlider({
+   mode: 'fade',
+   pagerCustom: '#bx-pager',
+   autoHover: true,
+   auto: true
+});
   function iitbutton() {
     x = 41.831000
 	y = -87.627230

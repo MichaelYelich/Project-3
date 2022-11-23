@@ -98,22 +98,39 @@ body{
 }
 #media h2{
   font-size: 150%;
-}
-#media img{
-  float:left;
-  height: 15%;
-  width: 15%;
-  padding-right: 10px;
-  padding-bottom: 10px;
-  
+  text-align: center;
 }
 #media p{
   font-size: 100%;
+  text-align: center;
+}
+.bx-wrapper {
+  width: 50%;
+  margin: 0 auto;
 }
 iframe{
   float:left;
   padding-right: 20px;
   border: none;  
+}
+@media screen and (min-width: 1000px) {
+  #media .bx-wrapper{
+    width: 20%;
+    float: left;
+    margin-right: 20px;
+  }
+  #media h2{
+  text-align: left;
+  }
+  #media p{
+  text-align: left;
+  }
+  
+}
+@media screen and (min-width: 2000px) {
+  #media p{
+    font-size: 30px;
+  }
 }
 #map_page{
   background-color: grey;
